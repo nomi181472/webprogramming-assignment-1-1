@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+}
+
+nav {
+    background-color: #00b8d4;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#homeStars1,
+#homeStars2 {
+    text-decoration: none;
+    color: black;
+}
+
+#navHomeConfirmation {
+    float: right;
+    text-align: center;
+    background-color: #FFFFCC;
+    border: ridge 2px;
+}
+
+#navHomeConfirmation:hover {
+    background-color: #00b8d4;
+    color: white;
+    border: ridge 3px;
+    font: bold;
+}
+
+#homeStars1:hover,
+#homeStars2:hover {
+    color: white;
+}

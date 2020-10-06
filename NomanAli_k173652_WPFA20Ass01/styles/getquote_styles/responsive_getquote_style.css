@@ -1,0 +1,15 @@
+@media (max-width:700px) {
+    #navHomeConfirmation {
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border: 1px solid;
+        white-space: nowrap;
+        font-size: 12px;
+        text-align: left;
+    }
+    #navHomeConfirmation:hover {
+        overflow: visible;
+        width: 135px;
+    }
+}

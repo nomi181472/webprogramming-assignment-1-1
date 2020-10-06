@@ -1,0 +1,75 @@
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 1%;
+}
+
+h3[title=textP] {
+    color: black;
+}
+
+#img {
+    width: 100%;
+    margin: 0;
+}
+
+input[type=text],
+input[type=email],
+select {
+    background-color: #f3f3f3;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.8%
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    border: 3px solid rgb(129, 222, 238);
+}
+
+#contactUs {
+    background-color: rgb(54, 179, 201);
+    color: white;
+    height: 40vh;
+    width: 100vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#contactUsId {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2%;
+}
+
+#form>button,
+button[type=button] {
+    font-size: 1em;
+    font-weight: bolder;
+    width: 98%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px 5px rgb(223, 221, 221);
+    border-radius: 30%;
+    margin: 2%;
+    padding: 2%;
+}
+
+textarea {
+    color: rgb(4, 132, 155);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin: 0.5%;
+}
+
+#contactForm>div {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    text-align: center;
+}
+
+#form {
+    display: grid;
+    grid-column: span 1;
+}

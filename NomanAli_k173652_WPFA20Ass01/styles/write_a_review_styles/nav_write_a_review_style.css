@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+}
+
+nav {
+    background-color: #00b8d4;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#homeStars1,
+#homeStars2,
+#homeStars3,
+#homeStars4,
+#homeStars5,
+#homeStars6 {
+    text-decoration: none;
+    color: black;
+}
+
+#navHomeConfirmation {
+    float: right;
+    text-align: center;
+    background-color: #FFFFCC;
+    border: ridge 2px;
+}
+
+#navHomeConfirmation:hover {
+    background-color: #00b8d4;
+    color: white;
+    border: ridge 3px;
+    font: bold;
+}
+
+#homeStars1:hover,
+#homeStars2:hover,
+#homeStars3:hover,
+#homeStars4:hover,
+#homeStars5:hover,
+#homeStars6:hover {
+    color: white;
+}
+
+#homeStars3 {
+    margin-left: 50px;
+}
+
+#homeStars4 {
+    margin-left: 10px;
+}
+
+#homeStars3:hover,
+#homeStars4:hover {
+    background-color: #00eeff;
+    padding: 10px;
+    opacity: 0.85;
+}
+
+#homeStars5,
+#homeStars6 {
+    float: right;
+}
+
+#homeStars5 {
+    margin-right: 50px;
+}
+
+#homeStars6 {
+    margin-right: 10px;
+}
+
+#homeStars5:hover,
+#homeStars6:hover {
+    background-color: #00eeff;
+    opacity: 0.85;
+    padding: 7px;
+}

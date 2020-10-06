@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+}
+
+.container1 {
+    font-size: 20px;
+}
+
+.container1Row1 {
+    width: 100%;
+}
+
+.container1Row1Column1 {
+    text-align: center;
+}
+
+.container2 {
+    background-color: gray;
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+#needHelp {
+    color: black;
+    text-shadow: black 20px;
+    background-color: #FFFFCC;
+}
+
+#needHelp:hover {
+    background-color: #FFFFCC;
+    opacity: 0.85;
+    color: black;
+}
+
+.container2Row1 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.container2Row2Column1,
+.container2Row2Column2,
+.container2Row2Column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 100%;
+}
+
+hr {
+    background-color: rgb(41, 41, 41);
+}
+
+h3 {
+    margin-left: 8%;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+.container2Row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+.container2Row2Column1:hover,
+.container2Row2Column2:hover,
+.container2Row2Column3:hover {
+    opacity: 0.85;
+}
+
+small {
+    text-align: right;
+    margin-left: 60%;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+a[target=footer1]:hover {
+    background-color: black;
+}

@@ -1,0 +1,66 @@
+@media (max-width:800px) {
+    #navHomeConfirmation,
+    #homeStars1 {
+        display: none;
+    }
+    #homeStars2,
+    #homeStars3,
+    #homeStars4,
+    #homeStars5,
+    #homeStars6 {
+        display: none;
+    }
+    small {
+        display: none;
+    }
+    #forDropList1,
+    #forDropList2 {
+        padding: 0;
+        list-style: none;
+    }
+    ul li {
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a {
+        display: block;
+        padding: 2px 15px;
+        color: white;
+        text-decoration: none;
+    }
+    ul li a:hover {
+        color: #fff;
+        opacity: 0.85;
+    }
+    ul li ul.dropdown {
+        min-width: 100%;
+        /* Set width of the dropdown */
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown {
+        display: block;
+        /* Display the dropdown */
+    }
+    ul li ul.dropdown li {
+        display: block;
+    }
+    #h4One,
+    #pOne {
+        display: none;
+    }
+}
+
+@media (min-width:801px) {
+    a[type=code] {
+        display: none;
+    }
+}
+
+li[title=forDropList_] {
+    text-align: center;
+}
