@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <title>Home | Homestars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/home_styles/nav_home_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/home_styles/nav_responsive_home_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/home_styles/mid_body_home_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/home_styles/footer_home_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/home_styles/footer_responsive_home_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/browse_category_styles/chat_interface_browse_category_style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a id="homeStars1" href="home.html">HomeStars</a>
+            <span id="navHomeConfirmation"><a href="home.html" id="homeStars2">ARE YOU A HOME PRO?</a></span>
+            <a id="homeStars3" href="browse_category.html">Browse Categories</a>
+            <a id="homeStars4" href="">Blog</a>
+            <a id="homeStars5" href="signup.html">Sign up</a>
+            <a id="homeStars6" href="login.html">Login</a>
+            <ul id="forDropList1">
+                <li title="forDropList_">
+                    <a href=" # " type="code"> &#9662;<br>&#9662; </a>
+                    <ul class="dropdown" id="forDropList2" title="forDropList_s">
+                        <h4 id=h4One>
+                            Get matched with local pros for your next home project.
+                        </h4>
+                        <p id="pOne">
+                            Quickly get quotes from verified and reviewed pros
+                        </p>
+                        <input type="text" placeholder="What do you need?">
+                        <input type="text" placeholder="Post Code">
+                        <input id="buttonOne" type="button" value="Get Quotes">
+
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <div class="midBody">
+        <h4 id="h4Two">
+            Essential Services for Urgent Repairs
+        </h4>
+
+        <div class="container5">
+            <img src="images/appliance repair.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Appliance Repair</a></div>
+            </div>
+        </div>
+
+        <div class="container5">
+            <img src="images/plumber repair.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Plumber Repair</a></div>
+            </div>
+        </div>
+        <div class="container5">
+            <img src="images/roofing repair.jpeg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Roofing Repair</a></div>
+            </div>
+        </div>
+        <div class="container5">
+            <img src="images/heating and cooling repair.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Heating&Cooling Repair</a></div>
+            </div>
+        </div>
+
+        <div class="container5">
+            <img src="images/moving services.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Moving Services</a></div>
+            </div>
+        </div>
+        <div class="container5">
+            <img src="images/electrical repair.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text"><a href="#">Electrical Repair</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="chatInterface">
+        <button class="button2" onclick="openForm()">Assistant interface</button>
+
+        <div class="popUp" id="myForm">
+            <form action="/action_page.php " class="container7 ">
+                <h1>Assistant interface</h1>
+
+                <label for="msg"><b>list</b></label>
+                <textarea placeholder="Description " name="msg" required></textarea>
+
+                <button type="submit" class="btn">Help</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">pop down</button>
+            </form>
+        </div>
+
+    </div>
+    </section>
+    <section>
+        <footer>
+            <div class="container2">
+                <div class="container2Row1">
+                    <a id="needHelp" href=" ">Need Help!!</a>
+                </div>
+                <hr>
+
+
+                <div class="container2Row2">
+                    <div class="container2Row2Column1 col-md-4 col-sm-6">
+                        <h3>Homeowners</h3>
+                        <ul title="footer">
+                            <li><a href=" " target="footer1">Browse Categories</a></li>
+                            <li><a href=" " target="footer1">Browse Tasks</a></li>
+                            <li><a href=" " target="footer1"> A Review</a></li>
+                            <li><a href=" " target="footer1"> Blog</a></li>
+                            <li><a href=" " target="footer1"> Star Reviewers</a></li>
+                            <li><a href=" " target="footer1">Homeowner FAQ </a></li>
+                            <li><a href=" " target="footer1">Review Guidelines</a></li>
+                            <li><a href=" " target="footer1"> HomeOwnerTrust</a></li>
+                            <li><a href=" " target="footer1"> Cost Guides </a></li>
+                            <li><a href=" " target="footer1"> Reno Report</a></li>
+                        </ul>
+                    </div>
+                    <div class="container2Row2Column2 col-md-4 col-sm-6">
+                        <h3>Home Professionals</h3>
+                        <ul title="footer">
+                            <li><a href=" " target="footer1">Browse Categories</a></li>
+                            <li><a href=" " target="footer1">Join HomeStarss</a></li>
+                            <li><a href=" " target="footer1"> Brand Builder</a></li>
+                            <li><a href=" " target="footer1"> Home Professional FAQ</a></li>
+                            <li><a href=" " target="footer1"> Building Trust</a></li>
+                            <li><a href=" " target="footer1">Mobile App</a></li>
+                            <li><a href=" " target="footer1">Home Professional Terms</a></li>
+                            <li><a href=" " target="footer1"> Pro Centre</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="container2Row2Column3 col-md-4 col-sm-6">
+                        <h3>HomeStars</h3>
+                        <ul title="footer">
+                            <li><a href=" " target="footer1">About</a></li>
+                            <li><a href=" " target="footer1">Our Team</a></li>
+                            <li><a href=" " target="footer1"> Press & Announcements</a></li>
+                            <li><a href=" " target="footer1">Careers at HomeStars</a></li>
+                            <li><a href=" " target="footer1">Contact Us</a></li>
+                            <li><a href=" " target="footer1">Terms of Use </a></li>
+                            <li><a href=" " target="footer1">Review Guidelines</a></li>
+                            <li><a href=" " target="footer1">Cities</a></li>
+                            <li><a href=" " target="footer1"> Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="container3">
+                    <div class="container3Row1">
+                        <small>© 2020 HomeStars, Inc., a HomeAdvisor company.</small>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="scripts/home_interface.js"></script>
+</body>
+
+</html>

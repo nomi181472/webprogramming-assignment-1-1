@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/contact_us_styles/mid_body_contact_us_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/write_a_review_styles/nav_write_a_review_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/write_a_review_styles/nav_responsive_write_a_review_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/browse_category_styles/footer_browse_category_style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/browse_category_styles/footer_responsive_browse_category_style.css">
+
+
+
+
+    <link rel='stylesheet' type='text/css' media='screen' href="styles/browse_category_styles/chat_interface_browse_category_style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a id="homeStars1" href="home.html">HomeStars</a>
+            <span id="navHomeConfirmation"><a href="#" id="homeStars2">ARE YOU A HOME PRO?</a></span>
+            <a id="homeStars3" href="browse_category.html">Browse Categories</a>
+            <a id="homeStars4" href="#">Blog</a>
+            <a id="homeStars5" href="signup.html">Sign up</a>
+            <a id="homeStars6" href="login.html">Login</a>
+            <ul id="forDropList1">
+                <li title="forDropList_">
+                    <a href=" # "> &#9662;<br>&#9662; </a>
+                    <ul class="dropdown" id="forDropList2" title="forDropList_s">
+                        <li><a href="browse_category.html ">Browse Categories</a></li>
+                        <li><a href="# ">Blog</a></li>
+                        <li><a href="signup.html ">Sign Up</a></li>
+                        <li><a href="login.html ">Login</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="./images/Contact-us.jpg" id="img">
+    <div id="contactUsId">
+        <div id="buttons">
+            <button type="button" id="service">For Service Pros</button>
+            <button type="button" id="homeowners">For Homeowners</button>
+            <button type="button" id="career">Careers</button>
+            <button type="button" id="press">Press</button>
+            <button type="button" id="partnership">Partnerships</button>
+        </div>
+        <div id="contactForm">
+            <div id="serviceForm">
+                <div>
+                    <h3 title="textP">Get in touch with us anytime, we're always here to help!</h3>
+                    <h3 title="textP">Contact Number : 1-877-488-031</h3>
+                    <h3 title="textP">Fill out the form below to send us a message:</h3>
+                </div>
+                <div id="form">
+                    <input type="text" placeholder="First name" value="" id="fname" name="fname" required>
+                    <input type="text" placeholder="Last Name" value="" id="lname" name="lname" required>
+                    <input type="text" placeholder="Company Name" value="" id="cname" name="cname" required>
+                    <input type="text" placeholder="Phone" value="" id="ph" name="ph" required>
+                    <input type="email" placeholder="Email" value="" id="email" name="email" required>
+                    <div>
+                        <label for="topic">Choose A Topic : </label>
+                        <select name="topic" id="topic">
+                            <option value="Getting_started">Getting Started</option>
+                            <option value="pricing">Pricing</option>
+                            <option value="payment">Billing & Payments</option>
+                            <option value="inquiry">General Inquiries</option>
+                        </select>
+                    </div>
+                    <textarea name="message" id="message" rows="3" placeholder="Message.."></textarea>
+                    <button type="button">Send Message</button>
+                </div>
+            </div>
+            <div id="homeownerForm">
+                <h3 title="textP">Get in touch with us anytime, we're always here to help!</h3>
+                <h3 title="textP">Contatc Number : 1-855-569-0690</h3>
+                <h3 title="textP">Fill out the form below to send us a message:</h3>
+                <div id="form">
+                    <input type="text" placeholder="First name" value="" id="fname" name="fname" required>
+                    <input type="text" placeholder="Last Name" value="" id="lname" name="lname" required>
+                    <input type="email" placeholder="Email" value="" id="email" name="email" required>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="button">Send Message</button>
+                </div>
+            </div>
+            <div id="careerForm">
+                <h3 title="textP">Interested in joining team HomeStars? Check out our current open positions or send us a message to learn more.</h3>
+                <h3 title="textP">See our current open roles</h3>
+                <h3 title="textP">Fill out the form below to send us a message:</h3>
+                <div id="form">
+                    <input type="text" placeholder="First name" value="" id="fname" name="fname" required>
+                    <input type="text" placeholder="Last Name" value="" id="lname" name="lname" required>
+                    <input type="email" placeholder="Email" value="" id="email" name="email" required>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="button">Send A Message</button>
+                </div>
+            </div>
+            <div id="pressForm">
+                <h3 title="textP">Want to chat with our press team?</h3>
+                <h3 title="textP">Fill out the form below to send us a message:</h3>
+                <div id="form">
+                    <input type="text" placeholder="First name" value="" id="fname" name="fname" required>
+                    <input type="text" placeholder="Last Name" value="" id="lname" name="lname" required>
+                    <input type="email" placeholder="Email" value="" id="email" name="email" required>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="button"> Send A Message</button>
+                </div>
+            </div>
+            <div id="partnershipForm">
+                <h3 title="textP">Want to partner with us? Let's chat.</h3>
+                <h3 title="textP">Fill out the form below to send us a message:</h3>
+                <div id="form">
+                    <input type="text" placeholder="First name" value="" id="fname" name="fname" required>
+                    <input type="text" placeholder="Last Name" value="" id="lname" name="lname" required>
+                    <input type="email" placeholder="Email" value="" id="email" name="email" required>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="button">Send A Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="chatInterface">
+        <button class="button2 " onclick="openForm() ">Assistant interface</button>
+
+        <div class="popUp" id="myForm">
+            <form action="/action_page.php " class="container7">
+                <h1>Assistant interface</h1>
+
+                <label for="msg"><b>list</b></label>
+                <textarea placeholder="Description" name="msg" required></textarea>
+
+                <button type="submit" class="btn">Help</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">pop down</button>
+            </form>
+        </div>
+
+    </div>
+    </section>
+    <section>
+        <footer>
+            <div class="container2">
+                <div class="container2Row1">
+                    <a id="needHelp" href=" ">Need Help!!</a>
+                </div>
+                <hr>
+
+
+                <div class="container2Row2">
+                    <div class="container2Row2Column1 col-md-4 col-sm-6 ">
+                        <h3>Homeowners</h3>
+                        <ul title="footer ">
+                            <li><a href=" " target="footer1">Browse Categories</a></li>
+                            <li><a href=" " target="footer1">Browse Tasks</a></li>
+                            <li><a href=" " target="footer1"> A Review</a></li>
+                            <li><a href=" " target="footer1"> Blog</a></li>
+                            <li><a href=" " target="footer1"> Star Reviewers</a></li>
+                            <li><a href=" " target="footer1">Homeowner FAQ </a></li>
+                            <li><a href=" " target="footer1">Review Guidelines</a></li>
+                            <li><a href=" " target="footer1"> HomeOwnerTrust</a></li>
+                            <li><a href=" " target="footer1"> Cost Guides </a></li>
+                            <li><a href=" " target="footer1"> Reno Report</a></li>
+                        </ul>
+                    </div>
+                    <div class="container2Row2Column2 col-md-4 col-sm-6 ">
+                        <h3>Home Professionals</h3>
+                        <ul title="footer ">
+                            <li><a href=" " target="footer1">Browse Categories</a></li>
+                            <li><a href=" " target="footer1">Join HomeStarss</a></li>
+                            <li><a href=" " target="footer1"> Brand Builder</a></li>
+                            <li><a href=" " target="footer1"> Home Professional FAQ</a></li>
+                            <li><a href=" " target="footer1"> Building Trust</a></li>
+                            <li><a href=" " target="footer1">Mobile App</a></li>
+                            <li><a href=" " target="footer1">Home Professional Terms</a></li>
+                            <li><a href=" " target="footer1"> Pro Centre</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="container2Row2Column3 col-md-4 col-sm-6 ">
+                        <h3>HomeStars</h3>
+                        <ul title="footer ">
+                            <li><a href=" " target="footer1">About</a></li>
+                            <li><a href=" " target="footer1">Our Team</a></li>
+                            <li><a href=" " target="footer1"> Press & Announcements</a></li>
+                            <li><a href=" " target="footer1">Careers at HomeStars</a></li>
+                            <li><a href=" " target="footer1">Contact Us</a></li>
+                            <li><a href=" " target="footer1">Terms of Use </a></li>
+                            <li><a href=" " target="footer1">Review Guidelines</a></li>
+                            <li><a href=" " target="footer1">Cities</a></li>
+                            <li><a href=" " target="footer1"> Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="container3">
+                    <div class="container3Row1 ">
+                        <small>© 2020 HomeStars, Inc., a HomeAdvisor company.</small>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="scripts/home_interface.js "></script>
+    <script src="scripts/contact_us.js "></script>
+</body>
+
+</html>
